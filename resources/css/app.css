@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-mono
+}
+
+article {
+    @apply text-lg mb-12 border-b-2 border-gray-500
+}
+
+article h2 {
+    @apply font-mono text-4xl cursor-pointer
+}
+
+article h2:hover {
+    @apply underline underline-offset-2
+}
+
+p {
+    @apply mb-6
+}
